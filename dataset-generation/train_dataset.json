@@ -1,0 +1,10 @@
+[
+  {
+    "image": "content/InstanceDiffusion/images/image_01.jpeg",
+    "caption": "A red bicycle leaning against a white picket fence on a sunny day. This charming scene captures a classic red bicycle resting against a pristine white picket fence. The vibrant color of the bike contrasts beautifully with the fence, while the sunny backdrop suggests a perfect day for a leisurely ride."
+  },
+  {
+    "image": "content/InstanceDiffusion/images/image_02.png",
+    "caption": "This image depicts a striking anime-style character with a distinctive appearance. The figure has short, vibrant blue hair that frames their face, complemented by large, expressive yellow eyes that convey a serious or slightly melancholic gaze. Their pale skin and neutral expression, featuring a small nose and slightly downturned mouth, add to the character's pensive aura. The character is dressed in what appears to be a dark-colored top, possibly a jacket or coat with a high collar. Set against a predominantly gray background with a checkerboard-like pattern and hints of red geometric shapes, the overall composition creates a somber and introspective mood. The vivid blue of the character's hair serves as a focal point, drawing the viewer's attention to their contemplative expression and emphasizing the anime aesthetic of the illustration."
+  }
+]
