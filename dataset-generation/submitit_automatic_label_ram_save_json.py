@@ -8,10 +8,10 @@ import torchvision
 from PIL import Image
 
 # Grounding DINO
-import groundingdino.datasets.transforms as T
-from groundingdino.models import build_model
-from groundingdino.util.slconfig import SLConfig
-from groundingdino.util.utils import clean_state_dict, get_phrases_from_posmap
+import GroundingDINO.groundingdino.datasets.transforms as T
+from GroundingDINO.groundingdino.models import build_model
+from GroundingDINO.groundingdino.util.slconfig import SLConfig
+from GroundingDINO.groundingdino.util.utils import clean_state_dict, get_phrases_from_posmap
 
 # segment anything
 from segment_anything import (
@@ -346,7 +346,7 @@ def get_args_parser():
     parser.add_argument(
         "--use_sam_hq", action="store_true", help="using sam-hq for prediction"
     )
-    parser.add_argument("--input_image", type=str, required=True, help="path to image file")
+    parser.add_argument("--input_image", type=str, required=False, help="path to image file")
     parser.add_argument("--split", default=",", type=str, help="split for text prompt")
     parser.add_argument("--openai_key", type=str, help="key for chatgpt")
     parser.add_argument("--openai_proxy", default=None, type=str, help="proxy for chatgpt")
